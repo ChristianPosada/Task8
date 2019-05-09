@@ -22,7 +22,6 @@ jQuery(document).ready(function(){
 
     for (var i=0;i < title.length;i++){
     $('#tasks').append('<img src="'  + imgUrls[i] + '"alt="' + title[i] + '">');
-    console.log(imgUrls[i]);
     $('#tasks').append('<p>' + title[i] + '</p>');
     }        
 
